@@ -1,0 +1,51 @@
+</html>
+<html>
+<head>
+<title>Register Page</title>
+</head>
+
+<style>
+body{background-color: silver; font-family: helvetica}
+</style>
+<center>
+<h3 style="color:black;font-size:30px;">Register</h3>
+<form action="" method="">
+<table>
+<tr style="color:white;font-size:20px;">
+<td>Username:</td>
+<td>
+<input type="text" name="user">
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>Password:</td>
+<td>
+<input type="password" name="user_pass">
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>Email:</td>
+<td>
+<input type="email" name="mail">
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>
+<input type="submit" name="submit" value="Submit">
+</td>
+<td>
+Already a user? <a href="login1.html">Login Here</a>
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>

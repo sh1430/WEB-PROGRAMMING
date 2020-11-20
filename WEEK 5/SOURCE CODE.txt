@@ -1,0 +1,81 @@
+HTML CODE:
+</html>
+<html>
+<head>
+<title>Register Page</title>
+</head>
+<body style="background-image:url(https://img.wallpapersafari.com/tablet/1536/2048/63/46/aYl5wG.jpg);
+}
+  height: 100%;
+background-repeat: ;
+  background-attachment: fixed;
+  background-size: 100% 100%; 
+}
+background-color: skyblue;">
+<style>
+body{background-color: silver; font-family: helvetica}
+</style>
+<center>
+<h3 style="color:black;font-size:30px;">Register</h3>
+<form action="" method="">
+<table>
+<tr style="color:white;font-size:20px;">
+<td>Username:</td>
+<td>
+<input type="text" name="user">
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>Password:</td>
+<td>
+<input type="password" name="user_pass">
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>Email:</td>
+<td>
+<input type="email" name="mail">
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>Gender:</td>
+<td>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+</td>
+</tr>
+<tr style="color:white;font-size:20px;">
+<td>
+<input type="submit" name="submit" value="Submit">
+</td>
+<td>
+
+
+NAVIGATION:
+Already a user? <a href="login1.html">Login Here</a>
+</td>
+</tr>
+</table>
+</form>
+</center>
+</body>
+</html>
+
+
+VALIDATION: 
+<script type="text/javascript">
+  let password = document.form1.password;
+  password.addEventListener("input", function(e) {
+    if (validPassword()) {
+      password.setCustomValidity("");
+    } else {
+     password.setCustomValidity("Password should be between 8 to 15 characters which contain at least one lowercase letter, one uppercase letter, one numeric digit, and one special character");
+    }
+  })
+  function validPassword() {
+    let regex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,15}$/;
+    let pass = password.value;
+    return pass.match(regex);
+  }
+</script>
+</html>
